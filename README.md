@@ -13,6 +13,8 @@ I am developing Subtitle Companion to help people watch and learn from content w
 
 [Problem and motivation](#problem-and-motivation) · [Architecture](#architecture) · [Core engineering](#core-engineering) · [Technology stack](#technology-stack) · [Verification and limitations](#verification-and-limitations)
 
+**Inspect runnable code:** [subtitle cue engine, synthetic-data demo, and tests](examples/). The public sample covers timing and cue selection without requiring a streaming account, subtitle library, or API key.
+
 ## Problem and motivation
 
 Subtitle availability is uneven across titles, languages, regions, and devices. Netflix's own [language-availability guidance](https://help.netflix.com/en/node/101798) documents these constraints, including licensing-related differences. This establishes the availability problem; it does not establish customer demand or a market-size estimate for this project.
