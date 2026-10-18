@@ -15,6 +15,39 @@ I am developing Subtitle Companion to help people watch and learn from content w
 
 **Inspect runnable code:** [subtitle cue engine, synthetic-data demo, and tests](examples/). The public sample covers timing and cue selection without requiring a streaming account, subtitle library, or API key.
 
+## Product screenshots and public UI walkthrough
+
+[Open the public website](https://subtitle-project-978670366914.europe-west2.run.app/portal-assets/about.html) · [Watch or download the 20-second MP4](assets/subtitle-companion-public-walkthrough.mp4) · [Capture details](MEDIA.md)
+
+![Subtitle Companion public UI navigation walkthrough](assets/subtitle-companion-public-walkthrough.gif)
+
+Actual browser captures of the deployed public website, taken on 18 October 2026: introduction, features, request-flow explanation, installation, and signed-out portal entry. This is a navigation montage assembled from still captures. Product previews drawn inside the public pages are illustrative; authenticated subtitle playback and translation are outside this walkthrough.
+
+<details>
+<summary>View the individual screenshots</summary>
+
+### Public landing page
+
+![Subtitle Companion public landing page](assets/01-landing.jpg)
+
+### Watching and learning features
+
+![Public page describing watching and learning features](assets/02-features.jpg)
+
+### Request workflow explanation
+
+![Public page explaining request, tracking, and subtitle access](assets/03-request-flow.jpg)
+
+### Android and Chrome installation page
+
+![Subtitle Companion Android and Chrome installation page](assets/04-installation.jpg)
+
+### Signed-out customer portal
+
+![Subtitle Companion empty sign-in form](assets/05-sign-in.jpg)
+
+</details>
+
 ## Problem and motivation
 
 Subtitle availability is uneven across titles, languages, regions, and devices. Netflix's own [language-availability guidance](https://help.netflix.com/en/node/101798) documents these constraints, including licensing-related differences. This establishes the availability problem; it does not establish customer demand or a market-size estimate for this project.
