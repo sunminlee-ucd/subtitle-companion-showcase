@@ -23,3 +23,7 @@ No package installation, API key, streaming account, or video download is needed
 The tests exercise malformed input, line-ending normalization, overlap, timing boundaries, offsets, and supported video identities. They validate this exported core, not browser integration or Android playback. The URL helper is a player-identity convenience, not a host-authorization or security boundary.
 
 The full application, translation pipeline, user data, and deployment configuration remain private. This folder is an implementation example, not a full-product demo.
+
+## Automated checks
+
+The [public sample workflow](../.github/workflows/sample-checks.yml) runs the focused tests and synthetic demo on pushes and pull requests. It uses no application credentials or private repositories. Passing these checks does not certify the complete private application or its deployment.

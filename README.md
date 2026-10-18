@@ -1,5 +1,9 @@
 # Subtitle Companion
 
+[![Public sample checks](https://github.com/sunminlee-ucd/subtitle-companion-showcase/actions/workflows/sample-checks.yml/badge.svg)](https://github.com/sunminlee-ucd/subtitle-companion-showcase/actions/workflows/sample-checks.yml)
+
+*Checks cover the standalone public sample; full application integration and deployment are outside their scope.*
+
 **A subtitle and language-learning application that connects context-aware translation, synchronized viewing, and study tools across Chrome and Android.**
 
 I am developing Subtitle Companion to help people watch and learn from content when their preferred subtitle language is unavailable, and to make useful dialogue easier to revisit without repeatedly switching between a video player, translator, and notebook.
